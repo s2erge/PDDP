@@ -8,8 +8,11 @@ namespace PDDP {
     public struct Challenge {
         public int uuid;
         public Sprite icon;
+        public AudioClip clip;
         public string name;
         public string desc;
+        public Mode mode;
+        public AnswerType answerType;
         public List<Answer> answers;
         public Status status;
     } // Struct Challenge

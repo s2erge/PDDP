@@ -15,13 +15,19 @@ MonoBehaviour:
   challenges:
   - uuid: 1
     icon: {fileID: 0}
+    clip: {fileID: 0}
     name: Guess what
     desc: 
+    mode: 0
+    answerType: 1
     answers: []
     status: 0
   - uuid: 2
     icon: {fileID: 0}
+    clip: {fileID: 0}
     name: Guess what
     desc: 
+    mode: 1
+    answerType: 0
     answers: []
     status: 0
